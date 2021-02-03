@@ -1,0 +1,6 @@
+framework module Pods_WLBaseProject_Example {
+  umbrella header "Pods-WLBaseProject_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

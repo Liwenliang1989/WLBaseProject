@@ -1,0 +1,22 @@
+{
+  "name": "WLBaseProject",
+  "version": "0.1.0",
+  "summary": "A short description of WLBaseProject.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/liwenliang/WLBaseProject",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "liwenliang": "981851091@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/liwenliang/WLBaseProject.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "WLBaseProject/Classes/**/*"
+}
