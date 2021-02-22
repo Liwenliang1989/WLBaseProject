@@ -15,7 +15,10 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'WLBaseProject/Classes/**/*'
+  s.source_files = 'WLBaseProject/Classes/UIKit/*.{h,m}',
+                   'WLBaseProject/Classes/Category/*.{h,m}'
+  s.framework    = "Security"
+  s.requires_arc = true
   s.public_header_files = 'WLBaseProject/Classes/UIKit/*.h'
   s.subspec 'UIKit' do |ss|
       ss.source_files = 'WLBaseProject/Classes/UIKit/*.{h,m}'
