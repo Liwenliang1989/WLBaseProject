@@ -16,5 +16,5 @@ TODO: WLBaseProject use for init project.
   s.source_files = 'WLBaseProject/*.{h,m}'
   s.framework    = "Security"
   s.requires_arc = true
-  s.public_header_files = 'WLBaseProject/Classes/UIKit/*.h'
+  #s.public_header_files = 'WLBaseProject/*.h'
 end
