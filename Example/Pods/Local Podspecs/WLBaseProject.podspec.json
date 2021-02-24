@@ -1,22 +1,19 @@
 {
   "name": "WLBaseProject",
   "version": "0.1.0",
-  "summary": "A short description of WLBaseProject.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/liwenliang/WLBaseProject",
-  "license": {
-    "type": "MIT",
-    "file": "LICENSE"
-  },
+  "summary": "WLBaseProject use for init project.",
+  "description": "TODO: WLBaseProject use for init project.",
+  "homepage": "https://github.com/Liwenliang1989",
+  "license": "MIT",
   "authors": {
-    "liwenliang": "981851091@qq.com"
+    "liwenliang1989": "981851091@qq.com"
   },
   "source": {
-    "git": "https://github.com/liwenliang/WLBaseProject.git",
+    "git": "https://github.com/Liwenliang1989/WLBaseProject.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "WLBaseProject/Classes/**/*"
+  "source_files": "WLBaseProject/Classes/*.{h,m}"
 }
