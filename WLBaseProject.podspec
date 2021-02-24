@@ -13,5 +13,5 @@ TODO: WLBaseProject use for init project.
   s.author           = { 'liwenliang1989' => '981851091@qq.com' }
   s.source           = { :git => 'https://github.com/Liwenliang1989/WLBaseProject.git', :tag => s.version.to_s }
   s.platform     = :ios, "9.0"
-  s.source_files = 'WLBaseProject/classes/*.{h,m}'
+  s.source_files = 'WLBaseProject/Classes/*.{h,m}'
 end
