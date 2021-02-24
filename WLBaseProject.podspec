@@ -8,13 +8,10 @@ Pod::Spec.new do |s|
 TODO: WLBaseProject use for init project.
                        DESC
 
-  s.homepage         = 'https://github.com/Liwenliang1989/WLBaseProject'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.homepage         = 'https://github.com/Liwenliang1989'
+  s.license          = 'MIT'
   s.author           = { 'liwenliang1989' => '981851091@qq.com' }
   s.source           = { :git => 'https://github.com/Liwenliang1989/WLBaseProject.git', :tag => s.version.to_s }
-  s.ios.deployment_target = '9.0'
+  s.platform     = :ios, "9.0"
   s.source_files = 'WLBaseProject/*.{h,m}'
-  s.framework    = "Security"
-  s.requires_arc = true
-  #s.public_header_files = 'WLBaseProject/*.h'
 end
